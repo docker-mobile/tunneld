@@ -1,4 +1,4 @@
-wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/katy-the-kat/tunneld/refs/heads/main/sshd_config
+wget -O /etc/ssh/sshd_config https://github.com/docker-mobile/tunneld/raw/refs/heads/main/sshd_config
 systemctl restart sshd
 passwd -d root
 adduser host
